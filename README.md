@@ -10,6 +10,13 @@
 Transform long-form YouTube videos (podcasts, interviews, vlogs) into engaging short-form content for TikTok, Instagram Reels, and YouTube Shorts — powered by AI.
 
 ---
+<div align="center">
+  <a href="https://saweria.co/RizalFirmansyah" target="_blank">
+    <img src="qrcode.png" alt="Saweria QR Code" width="200" />
+    <br>
+    <sub>Klik gambar untuk mendukung via Saweria</sub>
+  </a>
+</div>
 
 ## 🚀 Getting Started
 
