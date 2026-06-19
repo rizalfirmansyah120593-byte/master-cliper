@@ -3,7 +3,7 @@
 <<<<<<< HEAD
 =======
 [![Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&logoColor=white)](https://s.id/ytsdiscord)
-[![GitHub Stars](https://https://github.com/jipraks/yt-short-clipper)](https://github.com/rizalfirmansyah120593-byte/master-cliper)
+[![GitHub Stars](https://github.com/jipraks/yt-short-clipper)](https://github.com/rizalfirmansyah120593-byte/master-cliper)
 >>>>>>> 5dcc78ca5ea0a4dbd942968d55f92eff7d42757e
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)]()
