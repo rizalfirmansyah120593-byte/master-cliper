@@ -1,5 +1,10 @@
 # 🚀 Master Cliper
 
+<<<<<<< HEAD
+=======
+[![Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&logoColor=white)](https://s.id/ytsdiscord)
+[![GitHub Stars](https://img.shields.io/github/stars/jipraks/Master Cliper?style=social)](https://github.com/rizalfirmansyah120593-byte/master-cliper)
+>>>>>>> 5dcc78ca5ea0a4dbd942968d55f92eff7d42757e
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)]()
 [![Saweria](https://img.shields.io/badge/Support-Saweria-red?logo=kofi&logoColor=white)](https://saweria.co/RizalFirmansyah)
@@ -10,7 +15,93 @@
 
 Transformasikan video YouTube durasi panjang (podcast, interview, vlogs) menjadi konten *short-form* yang viral untuk **TikTok, Instagram Reels, dan YouTube Shorts** — didukung penuh oleh kekuatan AI.
 
+<<<<<<< HEAD
 > *"Reinventing your content creation workflow with AI-powered precision."*
+=======
+Download the desktop app for your platform:
+
+| Platform | Download | Notes |
+|----------|----------|-------|
+| **Windows** | [Latest Release (.exe)](https://github.com/rizalfirmansyah120593-byte/master-cliper/releases) | Windows 10+ |
+| **macOS** | [Latest Release (.dmg)](https://github.com/rizalfirmansyah120593-byte/master-cliper/releases) | macOS Catalina+, Apple Silicon & Intel |
+
+Then follow the complete setup guide:
+
+- 📖 **[English Guide](GUIDE.md)** - Complete setup guide with screenshots
+- 📖 **[Panduan Indonesia](PANDUAN.md)** - Panduan lengkap dengan screenshot
+
+**What you'll learn:**
+1. How to download and run the app
+2. Setup required libraries (yt-dlp, FFmpeg, Deno)
+3. Setup YouTube cookies for video access
+4. Configure AI API (multiple providers supported)
+5. Start processing videos
+
+### For Developers
+
+If you want to contribute or run from source:
+
+1. See [Installation](#-installation-for-development) below for development setup
+2. See [Contributing](#-contributing) for contribution guidelines
+3. See [Building from Source](#-building-from-source) for packaging the app
+
+## ✨ Features
+
+- **🎥 Auto Download** - Downloads YouTube videos with subtitles using yt-dlp
+- **🔍 AI Highlight Detection** - Uses GPT-4 to identify the most engaging segments (60-120 seconds)
+- **✂️ Smart Clipping** - Automatically cuts video at optimal timestamps
+- **📱 Portrait Conversion** - Converts landscape (16:9) to portrait (9:16) with intelligent speaker tracking
+- **🎯 Face Detection** - Two modes available:
+  - **OpenCV (Fast)** - Crops to largest face, faster processing
+  - **MediaPipe (Smart)** - Tracks active speaker via lip movement detection, more accurate but 2-3x slower
+- **🪝 Hook Generation** - Creates attention-grabbing intro scenes with AI-generated text and TTS voiceover
+- **📝 Auto Captions** - Adds CapCut-style word-by-word highlighted captions using Whisper
+- **🖼️ Watermark Support** - Add custom watermark with adjustable position, size, and opacity
+- **📊 SEO Metadata** - Generates optimized titles and descriptions for each clip
+- **🖥️ Cross-Platform** - Runs on Windows and macOS (Apple Silicon + Intel)
+- **⚡ GPU Acceleration** - NVENC (NVIDIA), AMF (AMD), QSV (Intel), VideoToolbox (macOS)
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        Master Cliper                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌──────────┐    ┌──────────────┐    ┌─────────────┐           │
+│  │ YouTube  │───▶│  Downloader  │───▶│  Subtitle   │           │
+│  │   URL    │    │   (yt-dlp)   │    │   Parser    │           │
+│  └──────────┘    └──────────────┘    └─────────────┘           │
+│                                              │                  │
+│                                              ▼                  │
+│                                    ┌─────────────────┐         │
+│                                    │ Highlight Finder │         │
+│                                    │    (GPT-4)       │         │
+│                                    └─────────────────┘         │
+│                                              │                  │
+│                                              ▼                  │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │                    Video Processing                       │  │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────────────┐  │  │
+│  │  │   Clipper  │─▶│  Portrait  │─▶│  Hook Generator    │  │  │
+│  │  │  (FFmpeg)  │  │ Converter  │  │  (TTS + Overlay)   │  │  │
+│  │  └────────────┘  │ OpenCV /   │  └────────────────────┘  │  │
+│  │                   │ MediaPipe  │             │            │  │
+│  │                   └────────────┘             ▼            │  │
+│  │                                    ┌────────────────┐     │  │
+│  │                                    │Caption Generator│    │  │
+│  │                                    │   (Whisper)     │    │  │
+│  │                                    └────────────────┘     │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                                              │                  │
+│                                              ▼                  │
+│                                    ┌─────────────────┐         │
+│                                    │  Output Clips   │         │
+│                                    │  + Metadata      │         │
+│                                    └─────────────────┘         │
+└─────────────────────────────────────────────────────────────────┘
+```
+>>>>>>> 5dcc78ca5ea0a4dbd942968d55f92eff7d42757e
 
 ---
 
