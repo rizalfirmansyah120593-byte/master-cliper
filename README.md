@@ -1,7 +1,7 @@
 # Master Cliper
 
 [![Discord](https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&logoColor=white)](https://s.id/ytsdiscord)
-[![GitHub Stars](https://img.shields.io/github/stars/jipraks/Master Cliper?style=social)](https://github.com/rizalfirmansyah120593-byte/Master Cliper)
+[![GitHub Stars](https://img.shields.io/github/stars/jipraks/Master Cliper?style=social)](https://github.com/rizalfirmansyah120593-byte/master-cliper)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)]()
 
@@ -19,8 +19,8 @@ Download the desktop app for your platform:
 
 | Platform | Download | Notes |
 |----------|----------|-------|
-| **Windows** | [Latest Release (.exe)](https://github.com/rizalfirmansyah120593-byte/Master Cliper/releases) | Windows 10+ |
-| **macOS** | [Latest Release (.dmg)](https://github.com/rizalfirmansyah120593-byte/Master Cliper/releases) | macOS Catalina+, Apple Silicon & Intel |
+| **Windows** | [Latest Release (.exe)](https://github.com/rizalfirmansyah120593-byte/master-cliper/releases) | Windows 10+ |
+| **macOS** | [Latest Release (.dmg)](https://github.com/rizalfirmansyah120593-byte/master-cliper/releases) | macOS Catalina+, Apple Silicon & Intel |
 
 Then follow the complete setup guide:
 
